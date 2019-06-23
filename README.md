@@ -32,7 +32,7 @@ esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.b
 
 ### Upload *.py and wifi.txt to ESP32
 ```
-ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]</p>
+ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]
 ```
 
 # Schematic
