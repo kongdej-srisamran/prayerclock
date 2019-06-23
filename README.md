@@ -7,12 +7,12 @@ Hardward:
 Installation
 1. Install Micro Python to ESP32
 
-#Preperation
-    - USB driver for ESP32 - CP2102            
-    - Python and PIP
-    - esptool.py - <a href="https://github.com/espressif/esptool">Tutorial</a>
-    - ampy - <a href="https://github.com/pycampers/ampy">Tutorial</a>
-    - micropython firmware - <a href="http://micropython.org/download">Download</a>
+#Preperation<br>
+    - USB driver for ESP32 - CP2102<br>        
+    - Python and PIP<br>
+    - esptool.py - <a href="https://github.com/espressif/esptool">Tutorial</a><br>
+    - ampy - <a href="https://github.com/pycampers/ampy">Tutorial</a><br>
+    - micropython firmware - <a href="http://micropython.org/download">Download</a><br>
 
 #Erase_flash
     esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash
