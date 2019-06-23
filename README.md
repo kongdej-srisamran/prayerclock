@@ -6,6 +6,7 @@ Hardward:
 
 Installation
 1. Install Micro Python to ESP32
+
 #Preperation
     - USB driver for ESP32 - CP2102            
     - Python and PIP
