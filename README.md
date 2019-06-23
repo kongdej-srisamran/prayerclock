@@ -1,11 +1,10 @@
 # prayerclock
-Hardward:
+Hardware:
 - ESP32 DOIT ESP32 DEVKIT/ESP-WROOM-32
 - MP3-TF-16P + SD Card 
 - Max7219 Led Matrix Module X 4
 
-Installation
-1. Install Micro Python to ESP32
+# Installation
 
 #Preperation
 <ul>
@@ -22,6 +21,7 @@ Installation
 #ESP32
 <p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
 
+# Schematic
 <p align="center">
   <img src="prayerclock.png" width="550" title="Prayer Clock Schemetic Diagram">
 </p>
