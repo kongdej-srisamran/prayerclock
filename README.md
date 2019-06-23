@@ -18,7 +18,7 @@ Hardware:
 <b>#Erase_flash</b>
 <p>esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash</p>
 
-<b>#ESP32</b>
+<b>#Flash micropython firmware to ESP32</b>
 <p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
 
 <b>#modify file wifi.txt</b> -  [ssid],[password]
