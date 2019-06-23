@@ -6,24 +6,24 @@ Hardware:
 
 # Installation
 
-#Preperation
+<b>#Preperation</b>
 <ul>
     <li>USB driver for ESP32 - CP2102 </li>   
     <li>Python and PIP</li>
     <li>sptool.py - <a href="https://github.com/espressif/esptool">Tutorial</a></li>
-    <li>ampy - <a href="https://github.com/pycampers/ampy">Tutorial</a><li>
+    <li>ampy - <a href="https://github.com/pycampers/ampy">Tutorial</a></li>
     <li>micropython firmware - <a href="http://micropython.org/download">Download</a></li>
 </ul>
 
-#Erase_flash
+<b>#Erase_flash</b>
 <p>esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash</p>
 
-#ESP32
+<b>#ESP32</b>
 <p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
 
-#modify file wifi.txt -  [ssid],[password]
+<b>#modify file wifi.txt</b> -  [ssid],[password]
 
-#Upload *.py and wifi.txt to ESP32
+<b>#Upload *.py and wifi.txt to ESP32</b>
 <p>ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]</p>
 
 
