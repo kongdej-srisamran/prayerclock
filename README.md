@@ -21,13 +21,19 @@ esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash
 ```
 
 ### Flash micropython firmware to ESP32
-<p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
+```
+esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin
+```
 
-### modify file wifi.txt -  [ssid],[password]
+### modify file wifi.txt
+```
+  [ssid],[password]
+```
 
 ### Upload *.py and wifi.txt to ESP32
-<p>ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]</p>
-
+```
+ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]</p>
+```
 
 # Schematic
 <p align="center">
