@@ -4,9 +4,9 @@ Hardware:
 - MP3-TF-16P + SD Card 
 - Max7219 Led Matrix Module X 4
 
-# Installation
+## Installation
 
-<b>#Preperation</b>
+### Preperation
 <ul>
     <li>USB driver for ESP32 - CP2102 </li>   
     <li>Python and PIP</li>
@@ -15,15 +15,15 @@ Hardware:
     <li>micropython firmware - <a href="http://micropython.org/download">Download</a></li>
 </ul>
 
-<b>#Erase_flash</b>
+### Erase_flash
 <p>     esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash</p>
 
-<b>#Flash micropython firmware to ESP32</b>
+### Flash micropython firmware to ESP32
 <p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
 
-<b>#modify file wifi.txt</b> -  [ssid],[password]
+### modify file wifi.txt -  [ssid],[password]
 
-<b>#Upload *.py and wifi.txt to ESP32</b>
+### Upload *.py and wifi.txt to ESP32
 <p>ampy --port /dev/tty.SLAB_USBtoUART put [xxxxxx.py]</p>
 
 
