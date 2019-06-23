@@ -10,7 +10,7 @@ Hardware:
 <ul>
     <li>USB driver for ESP32 - CP2102 </li>   
     <li>Python and PIP</li>
-    <li>sptool.py - <a href="https://github.com/espressif/esptool">Tutorial</a></li>
+    <li>esptool.py - <a href="https://github.com/espressif/esptool">Tutorial</a></li>
     <li>ampy - <a href="https://github.com/pycampers/ampy">Tutorial</a></li>
     <li>micropython firmware - <a href="http://micropython.org/download">Download</a></li>
 </ul>
