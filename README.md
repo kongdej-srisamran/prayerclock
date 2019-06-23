@@ -1,5 +1,5 @@
-# Smaret Prayer Clock
-## Hardware:
+# Prayer Clock
+## Hardware
 - ESP32 DOIT ESP32 DEVKIT/ESP-WROOM-32
 - MP3-TF-16P + SD Card 
 - Max7219 Led Matrix Module X 4
