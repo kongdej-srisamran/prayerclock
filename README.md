@@ -16,9 +16,9 @@ Hardware:
 </ul>
 
 ### Erase_flash
-'''
+```
 esptool.py --port /dev/tty.SLAB_USBtoUART erase_flash
-'''
+```
 
 ### Flash micropython firmware to ESP32
 <p>esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART write_flash -z 0x1000 *.bin</p>
